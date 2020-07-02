@@ -109,3 +109,9 @@
 src="docImges/bioman.jpg" alt="teamPhoto">
 
 
+| Lee, Chi Jong | Lim-CHAGEho | Cho, Yong Hun | Kim, Joo Hyuk |
+| --- | --- | --- | --- | 
+| Project Leader | Full-ops Manager | Dev-ops Manager | Developing Surfer | 
+|<img src="docImges/bioman.jpg" alt="Daljaru" style="width:25%">|<img src="docImges/bioman.jpg" alt="Daljaru" style="width:25%">|<img src="docImges/bioman.jpg" alt="Daljaru" style="width:25%">|<img src="docImges/bioman.jpg" alt="Daljaru" style="width:25%">|
+| Seoul,Korea | --- | Seoul,Korea | Jeju, Philppines, Seoul |
+
