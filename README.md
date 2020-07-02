@@ -26,7 +26,10 @@
 * [팀소개](#팀소개)
 
 ## 서비스 설명
-### 서비스 정의
+
+<img src="docImges/conceptDiagram.jpg" width="70%">
+
+### 서비스 정의 / 서비스 목적
 ### 서비스 목적
 ### 팀소개
 ### Dependencies
@@ -51,7 +54,7 @@
 | Bootstrap  | CDN | 4.5.0 | ???? |
 
 ## 컨셉(Topic) : 
-<img src="docImges/SolveProblem.jpeg" width="50%">
+<img src="docImges/SolveProblem.jpeg" width="40%">
 
 ### 주제 소개
 
