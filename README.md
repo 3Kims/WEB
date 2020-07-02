@@ -124,9 +124,9 @@
   - 깃헙 연동 알람 (Repository Subscription)
 
 #### 4. Version Control System (Github)
-1. 각자 편한 Github 프로그램 사용
-1.1. master pull >  work > new branch > pull request
-1.2. master pull > work > updated master pull & merge > test > push master
+1. 각자 편한 Github 프로그램 사용 <br/>
+1.1. master pull >  work > new branch > pull request <br/>
+1.2. master pull > work > updated master pull & merge > test > push master <br/>
 
 <img src="docImges/vcs12.jpg">
 
