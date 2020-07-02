@@ -90,8 +90,8 @@
 	<!-- image 삽입 -->
 	Extension - iframe, 현재 탭 url 긁어오는 기능 등
 	크롬 익스텐션
-::: 크롬익스텐션<br>
-파일 정보:<br>
+::: 크롬익스텐션<br><br>
+파일 정보:<br><br>
  manifest.json :<br>
   익스텐션의 기본적인 정보를 등록한다. 이름, 아이콘, 기본 팝업창, background script, content script, 어떤 사이트에서 스크립트가 사용될지 등등 <br><br>
  background.js :<br>
