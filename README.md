@@ -112,23 +112,25 @@
 	
 	
 ## 협업방식
-1.1. 업무 일지,
+#### 1. 업무 일지,
   - 팀원끼리 번갈아가며 업무일지 회의록 작성함으로써 팀원 모두 업무 현황을 공유.
   - 매일 회의에서 팀 및 개인적 차원에서 오늘/내일 할 일들을 정리.
-1.2. 간트차트
+#### 2. 간트차트
 간트차트로 업무 진척도 파악
 <!-- image 삽입 -->
-1.3. Slack
+
+#### 3. Slack
   - 메신저
   - 깃헙 연동 알람 (Repository Subscription)
-2. Version Control System (Github)
-  2. 각자 편한 Github 프로그램 사용
+
+#### 4. Version Control System (Github)
+1. 각자 편한 Github 프로그램 사용
 1.1. master pull >  work > new branch > pull request
 1.2. master pull > work > updated master pull & merge > test > push master
-## 팀소개
-<
-src="docImges/bioman.jpg" alt="teamPhoto">
 
+<img src="docImges/vcs12.jpg">
+
+## 팀소개
 
 | Lee, Chi Jong | Im, Chae Eun | Cho, Yong Hun | Kim, Joo Hyuk |
 | :---: | :---: | :---: | :---: |
