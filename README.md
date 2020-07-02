@@ -90,16 +90,16 @@
 	<!-- image 삽입 -->
 	Extension - iframe, 현재 탭 url 긁어오는 기능 등
 	크롬 익스텐션
-::: 크롬익스텐션
-파일 정보:
- manifest.json :
-  익스텐션의 기본적인 정보를 등록한다. 이름, 아이콘, 기본 팝업창, background script, content script, 어떤 사이트에서 스크립트가 사용될지 등등 
- background.js :
-  크롬 익스텐션 전반에서 이벤트 발생시 특정한 기능을 처리한다. 페이지 이동, 익스텐션 설치, 텝 닫힘 등을 감지할 수 있다. 이번 익스텐션에서는 메시지 리스너를 추가해 콘텐츠 스크립트에서 전달된 메세지에 따라 로그인 배너를 아이콘 위에 표시해주도록 했다.
- content.js :
-  manifest 파일에 content.js가 페이지가 http://localhost:8888/에 포함된 경우 호출되도록 match시켜놨다. 현재 크롬익스텐션은 모두 iframe 기반으로, 서버에서 받은 데이터를 iframe 내부에 호출한다. 웹 보안 정책인 same origin policy는 불러온 스크립트가 호스트가 다른 경우, 보안을 위해 접근을 제한한다. 따라서 content.js가 iframe 내부에서 호출되어 데이터를 받아오는 작업이 필수적이다. 현재 프로그램에서 content.js는 background script와 iframe을 호출하는 모든 페이지와 메세지를 주고받는다. content.js는 로그인 여부, 작업 성공여부를 검사한다.
- 나머지 html 확장자:
-  모든 html파일은 별개로 각자의 js파일을 가진다. js파일에는 기본적인 javascript 함수들과 chrome.extension API 기능을 사용한 함수들을 등록한다.
+::: 크롬익스텐션<br>
+파일 정보:<br>
+ manifest.json :<br>
+  익스텐션의 기본적인 정보를 등록한다. 이름, 아이콘, 기본 팝업창, background script, content script, 어떤 사이트에서 스크립트가 사용될지 등등 <br><br>
+ background.js :<br>
+  크롬 익스텐션 전반에서 이벤트 발생시 특정한 기능을 처리한다. 페이지 이동, 익스텐션 설치, 텝 닫힘 등을 감지할 수 있다. 이번 익스텐션에서는 메시지 리스너를 추가해 콘텐츠 스크립트에서 전달된 메세지에 따라 로그인 배너를 아이콘 위에 표시해주도록 했다.<br><br>
+ content.js :<br>
+  manifest 파일에 content.js가 페이지가 http://localhost:8888/에 포함된 경우 호출되도록 match시켜놨다. 현재 크롬익스텐션은 모두 iframe 기반으로, 서버에서 받은 데이터를 iframe 내부에 호출한다. 웹 보안 정책인 same origin policy는 불러온 스크립트가 호스트가 다른 경우, 보안을 위해 접근을 제한한다. 따라서 content.js가 iframe 내부에서 호출되어 데이터를 받아오는 작업이 필수적이다. 현재 프로그램에서 content.js는 background script와 iframe을 호출하는 모든 페이지와 메세지를 주고받는다. content.js는 로그인 여부, 작업 성공여부를 검사한다.<br><br>
+ 나머지 html 확장자:<br>
+  모든 html파일은 별개로 각자의 js파일을 가진다. js파일에는 기본적인 javascript 함수들과 chrome.extension API 기능을 사용한 함수들을 등록한다.<br><br>
 
  동작 순서 : 
 1. content script 가 로그인 여부를 검사한다. 사이트에 접속하거나 익스텐션 아이콘을 누르면 호출된다.
