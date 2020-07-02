@@ -9,8 +9,9 @@
 저희 LazyCart와 함께하고 싶으시다면:</br>
 
 <ul>
-	<li>[후원을 통한 참여](https://www.patreon.com/evanyou).</li>
-	<li>[기술적 참여](https://www.patreon.com/evanyou).</li>
+	<li><a href="mailto:beanskobe@gmail.com">후원을 통한 참여</a></li>
+	<li><a href="mailto:beanskobe@gmail.com">기술적 참여</a></li>
+\
 </ul>
 
 ## Table of contents
