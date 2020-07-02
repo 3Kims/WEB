@@ -1,17 +1,16 @@
-<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img src="cart.png" alt="logo"></a></p>
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img src="docImges/cart.png" alt="logo"></a></p>
 
 # LAZY-CART
 
+> <<<<---img src="totalShoppingExp.jpg">
 >LazyCart (레이지카트)는 <b>소비자중심</b>의 "YongHunDotCom-licensed 오픈소스 웹-서비스"입니다. </br>레이지카트는 전적으로 감사하는 후원자님들과 테크니컬-파트너분들의 지속적인 참여를 통해 운영되는 서비스입니다.
-
-</br></br>
 
 저희 LazyCart와 함께하고 싶으시다면:</br>
 
 <ul>
 	<li><a href="mailto:beanskobe@gmail.com">후원을 통한 참여</a></li>
 	<li><a href="mailto:beanskobe@gmail.com">기술적 참여</a></li>
-\
+
 </ul>
 
 ## Table of contents
@@ -51,16 +50,22 @@
 | popper.js  | CDN | 1.16.0 | ???? |
 | Bootstrap  | CDN | 4.5.0 | ???? |
 
-## 주제 및 컨셉
-<img src="https://tipscd.com/wp-content/uploads/2018/09/SolveProblem.jpeg" width="50%">
-### 주제 소개 : 여러 쇼핑몰에서 살펴본 상품들의 정보를 하나의 장바구니에 담아 상품을 조회, 비교, 구매할 수 있는 프로그램입니다. 기존에는 장바구니 기능은 개별 홈페이지의 상품만 담을 수 있는 반면, LazyCart는 쇼핑몰 페이지 도메인과 무관하게 상품을 담을 수 있어 유저가 보다 편리하게 온라인 쇼핑할 수 있습니다.
-### 컨셉 : EasyBasket은 "편리한 온라인 쇼핑을 돕는 장바구니 프로그램"이라는 취지로
+## 컨셉(Topic) : 
+<img src="docImges/SolveProblem.jpeg" width="50%">
+
+### 주제 소개
+
+::: 여러 쇼핑몰에서 살펴본 상품들의 정보를 하나의 장바구니에 담아 상품을 조회, 비교, 구매할 수 있는 프로그램입니다. 기존에는 장바구니 기능은 개별 홈페이지의 상품만 담을 수 있는 반면, LazyCart는 쇼핑몰 페이지 도메인과 무관하게 상품을 담을 수 있어 유저가 보다 편리하게 온라인 쇼핑할 수 있습니다.
+
+### 컨셉
+
+::: EasyBasket은 "편리한 온라인 쇼핑을 돕는 장바구니 프로그램"이라는 취지로
 	1) 기능적인 측면에서 Chrome Extension을 사용하여 현재 상품 페이지 탭에서 탭 이동 없이 장바구니를 사용할 수 있습니다.
 	2) 화면 구성 또한 단순한 구성과 색상으로 Assistance Program으로써 기능적인 면에 보다 충실하고자 합니다.
 	
 ## 유저 중심의 기능 분석
 
-: 익스텐션과 웹은 서로 연동되어 있으면서도 각각에 맞는 기능과 UI를 구상했습니다.
+::: 익스텐션과 웹은 서로 연동되어 있으면서도 각각에 맞는 기능과 UI를 구상했습니다.
 익스텐션은 장바구니 담기와 상품 조회 목적에 최소화하며 화면 또한 단순화 하여 쇼핑에 집중할 수 있도록 합니다.
 웹은 필터링/검색/Analysis 등 추가적 기능을 포함하며 특히, 장바구니 상품을 가격, 쇼핑몰, 카테고리 등 기준으로 비교할 수 있습니다.
 	1. 각자 그린 프로토 타입
@@ -100,4 +105,5 @@
 1.1. master pull >  work > new branch > pull request
 1.2. master pull > work > updated master pull & merge > test > push master
 ## 팀소개
-<img src="bioman.jpg" alt="teamPhoto">
+<
+src="docImges/bioman.jpg" alt="teamPhoto">
